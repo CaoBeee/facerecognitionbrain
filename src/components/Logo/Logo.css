@@ -1,0 +1,7 @@
+.Tilt {
+	align-items: center;
+	background-color: #74ebd5;
+	background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+	width: 200px;
+	margin: auto;
+}
