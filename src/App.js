@@ -95,6 +95,7 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<ParticlesBg
+					color='#FFFFFF'
 					className='particles-bg'
 					type='cobweb'
 					bg={true}
