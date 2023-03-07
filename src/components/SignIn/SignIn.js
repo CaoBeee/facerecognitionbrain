@@ -9,11 +9,11 @@ class SignIn extends React.Component {
 		}
 	}
 
-	onEmailChange = (event) => {
+	onEmailChange = event => {
 		this.setState({ signInEmail: event.target.value })
 	}
 
-	onPasswordChange = (event) => {
+	onPasswordChange = event => {
 		this.setState({ signInPassword: event.target.value })
 	}
 
@@ -26,11 +26,10 @@ class SignIn extends React.Component {
 				password: this.state.signInPassword,
 			}),
 		})
-			.then((response) => response.json())
-			.then((user) => {
+			.then(response => response.json())
+			.then(user => {
 				if (user.id) {
 					this.props.loadUser(user)
-					console.log('loading user', user)
 					this.props.onRouteChange('home')
 				}
 			})

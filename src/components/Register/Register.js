@@ -10,16 +10,16 @@ class Register extends React.Component {
 		}
 	}
 
-	onNameChange = (event) => {
+	onNameChange = event => {
 		this.setState({ name: event.target.value })
 	}
 
-	onEmailChange = (event) => {
-		this.setState({ signInEmail: event.target.value })
+	onEmailChange = event => {
+		this.setState({ email: event.target.value })
 	}
 
-	onPasswordChange = (event) => {
-		this.setState({ signInPassword: event.target.value })
+	onPasswordChange = event => {
+		this.setState({ password: event.target.value })
 	}
 
 	onSubmitSignIn = () => {
@@ -32,9 +32,9 @@ class Register extends React.Component {
 				password: this.state.password,
 			}),
 		})
-			.then((response) => response.json())
-			.then((user) => {
-				if (user) {
+			.then(response => response.json())
+			.then(user => {
+				if (user.id) {
 					this.props.loadUser(user)
 					this.props.onRouteChange('home')
 				}
