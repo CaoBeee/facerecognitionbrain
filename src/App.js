@@ -57,7 +57,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('http://localhost:3000/')
+		fetch('https://smart-brain-api-caobeee.onrender.com/')
 			.then(response => response.json())
 			.then(console.log)
 	}
@@ -85,7 +85,7 @@ class App extends Component {
 
 	onPictureSubmit = () => {
 		this.setState({ imageUrl: this.state.input })
-		fetch('http://localhost:3000/imageurl', {
+		fetch('https://smart-brain-api-caobeee.onrender.com/imageurl', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
@@ -96,7 +96,7 @@ class App extends Component {
 			.then(response => {
 				console.log('hi', response)
 				if (response) {
-					fetch('http://localhost:3000/image', {
+					fetch('https://smart-brain-api-caobeee.onrender.com/image', {
 						method: 'PUT',
 						headers: { 'Content-Type': 'application/json' },
 						body: JSON.stringify({
