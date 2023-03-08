@@ -94,7 +94,6 @@ class App extends Component {
 		})
 			.then(response => response.json())
 			.then(response => {
-				console.log('hi', response)
 				if (response) {
 					fetch('https://smart-brain-api-caobeee.onrender.com/image', {
 						method: 'PUT',
