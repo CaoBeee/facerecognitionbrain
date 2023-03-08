@@ -44,6 +44,8 @@ Facial Recognition Brain was built using the following libraries and tools:
 
 [ParticlesBg](https://www.npmjs.com/package/particles-bg): React component for particles backgrounds
 
+[react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt): Easily apply tilt hover effect on React components
+
 [bcryptjs](https://www.npmjs.com/package/bcryptjs): bcrypt is a password-hashing function
 
 [cors](https://www.npmjs.com/package/cors): CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
