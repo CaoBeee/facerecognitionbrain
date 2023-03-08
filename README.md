@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Facial Recognition Brain
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Facial Recognition Brain is a simple web app that allows you to input an image link to see if the AI can detect a face in the image provided.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started, clone this repository to your local machine and navigate to the project directory. Then, run the following commands in your terminal:
 
-### `npm start`
+1. npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This will install all the necessary dependencies and start the development server. You can now view the app in your web browser at <http://localhost:3000>.
 
-### `npm test`
+### Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Facial Recognition is designed to be easy to use. You can modify the source code to add new features, change the styling, or integrate with external APIs.
 
-### `npm run build`
+To get started with customizing the app, open the source code in your favorite code editor and explore the files and folders. You can modify the existing components or add new ones to create your own custom user interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you find any bugs or issues with Facial Recognition Brain, please feel free to create a new issue on GitHub or submit a pull request with your proposed changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Credits
 
-### `npm run eject`
+Facial Recognition Brain was built using the following libraries and tools:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[ZTM](https://zerotomastery.io/): The most efficient and supportive way for you to learn in-demand skills, get hired, and advance your career.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[React](https://reactjs.org/): A popular JavaScript library for building user interfaces
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Create React App](https://reactjs.org/docs/create-a-new-react-app.html): A tool for creating React applications quickly and easily
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Tachyon](https://tachyons.io/): A responsive and mobile-friendly CSS framework that emphasizes simplicity, modularity, and a functional CSS approach.
 
-## Learn More
+[Node.JS](https://nodejs.org/en/): Node.js® is an open-source, cross-platform JavaScript runtime environment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Postgresql](https://www.postgresql.org/): The World's Most Advanced Open Source Relational Database
 
-### Code Splitting
+[ParticlesBg](https://www.npmjs.com/package/particles-bg): React component for particles backgrounds
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[bcryptjs](https://www.npmjs.com/package/bcryptjs): bcrypt is a password-hashing function
 
-### Analyzing the Bundle Size
+[cors](https://www.npmjs.com/package/cors): CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[knex](https://www.npmjs.com/package/knex): A SQL query builder that is flexible, portable, and fun to use!
