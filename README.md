@@ -40,7 +40,7 @@ Facial Recognition Brain was built using the following libraries and tools:
 
 [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
 
-[Postgresql](https://www.postgresql.org/): The World's Most Advanced Open Source Relational Database
+[PostgreSQL](https://www.postgresql.org/): The World's Most Advanced Open Source Relational Database
 
 [ParticlesBg](https://www.npmjs.com/package/particles-bg): React component for particles backgrounds
 
