@@ -28,6 +28,8 @@ Facial Recognition Brain was built using the following libraries and tools:
 
 [ZTM](https://zerotomastery.io/): The most efficient and supportive way for you to learn in-demand skills, get hired, and advance your career.
 
+[clarifai](https://www.clarifai.com/): The easiest deep learning AI platform for developers, data scientists and no-code operators
+
 [React](https://reactjs.org/): A popular JavaScript library for building user interfaces
 
 [Create React App](https://reactjs.org/docs/create-a-new-react-app.html): A tool for creating React applications quickly and easily
