@@ -57,7 +57,7 @@ class App extends Component {
 
 	componentDidMount() {
 		fetch('https://smart-brain-api-caobeee.onrender.com/')
-			.then(response => response.json())
+			.then(response => response.text())
 			.then(console.log)
 	}
 
