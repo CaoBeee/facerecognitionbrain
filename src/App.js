@@ -84,7 +84,7 @@ class App extends Component {
 
 	onPictureSubmit = () => {
 		this.setState({ imageUrl: this.state.input })
-		if (this.state.input !== '' && this.state.input.includes('http')) {
+		if (this.state.imageUrl !== '' && this.state.imageUrl.includes('http')) {
 			fetch('https://smart-brain-api-caobeee.onrender.com/imageurl', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
