@@ -22,7 +22,7 @@ class SignIn extends React.Component {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
-				email: this.state.signInEmail.toLowerCase,
+				email: this.state.signInEmail,
 				password: this.state.signInPassword,
 			}),
 		})
