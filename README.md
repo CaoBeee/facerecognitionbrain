@@ -51,3 +51,5 @@ Facial Recognition Brain was built using the following libraries and tools:
 [cors](https://www.npmjs.com/package/cors): CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
 [knex](https://www.npmjs.com/package/knex): A SQL query builder that is flexible, portable, and fun to use!
+
+[Render](https://render.com/): Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.
